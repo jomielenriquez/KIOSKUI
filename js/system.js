@@ -62,3 +62,28 @@ function content_toggle(e){
         }         
     })
 }
+
+
+
+
+//Create new database table
+//tblcontent
+//columns
+//  tblid           int
+//  filetype        nvarchar(10)  ** image, video, text  //must include youtube link
+//  filelocation    nvarchar(250)
+//  filename        nvarchar(50)
+//  textheader      nvarchar(50)  ** if type is text
+//  textcontent     nvarchar(50)  ** if type is text
+//  backgroundcolor nvarchar(50)  ** if type is text
+//  textcolor       nvarchar(50)  ** if type is text
+
+
+//tblsystempar
+//columns
+//  tblid           int
+//  tblcode         nvarchar(50)
+//  tblval          nvarchar(50)
+
+//  data
+//  backgroundimage      ""
